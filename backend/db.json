@@ -1,0 +1,235 @@
+{
+  "users": [
+    {
+      "email": "user1@example.com",
+      "password": "123456",
+      "name": "User One"
+    }
+  ],
+  "quotes": [
+    {
+      "id": 1,
+      "quote": "I'm not lazy, I'm on energy-saving mode.",
+      "author": "Unknown",
+      "category": "funny",
+      "votes": 1
+    },
+    {
+      "id": 2,
+      "quote": "ฉันไม่ได้ขี้เกียจนะ แค่กำลังประหยัดพลังงาน",
+      "author": "โนเนม",
+      "category": "funny",
+      "votes": 2
+    },
+    {
+      "id": 3,
+      "quote": "I followed a diet but it didn’t follow me back.",
+      "author": "Foodie",
+      "category": "food",
+      "votes": 4
+    },
+    {
+      "id": 4,
+      "quote": "ฝนตกไม่ต้องกลัว เปียกเสื้อแค่นั้นเอง",
+      "author": "นักรบเสื้อบาง",
+      "category": "life",
+      "votes": 3
+    },
+    {
+      "id": 5,
+      "quote": "I'm not arguing, I'm just explaining why I'm right.",
+      "author": "Smart Guy",
+      "category": "funny",
+      "votes": 5
+    },
+    {
+      "id": 6,
+      "quote": "โสดนะ ไม่ได้แปลว่าเหงา แต่อยากมีแฟนเท่านั้นเอง",
+      "author": "โสดสายฮา",
+      "category": "love",
+      "votes": 0
+    },
+    {
+      "id": 7,
+      "quote": "Silence is golden. Duct tape is silver.",
+      "author": "Funny Dude",
+      "category": "funny",
+      "votes": 3
+    },
+    {
+      "id": 8,
+      "quote": "เรียนไม่เก่งไม่เป็นไร ขำเก่งไว้ก่อน",
+      "author": "เพื่อนฮาๆ",
+      "category": "life",
+      "votes": 0
+    },
+    {
+      "id": 9,
+      "quote": "If we’re not meant to have midnight snacks, why is there a light in the fridge?",
+      "author": "Night Eater",
+      "category": "food",
+      "votes": 0
+    },
+    {
+      "id": 10,
+      "quote": "ถึงหน้าเราจะไม่หวาน แต่ทานของหวานได้นะ",
+      "author": "สายของหวาน",
+      "category": "love",
+      "votes": 0
+    },
+    {
+      "id": 11,
+      "quote": "Brains are awesome. I wish everybody had one.",
+      "author": "Sassy Friend",
+      "category": "funny",
+      "votes": 2
+    },
+    {
+      "id": 12,
+      "quote": "แฟนไม่มีก็ไม่ตาย แต่ถ้าไม่มีข้าว อาจตายจริง",
+      "author": "สายกิน",
+      "category": "food",
+      "votes": 1
+    },
+    {
+      "id": 13,
+      "quote": "Sarcasm: Just one of the many services I offer.",
+      "author": "Mr. Sarcastic",
+      "category": "funny",
+      "votes": 1
+    },
+    {
+      "id": 14,
+      "quote": "อยู่คนเดียวไม่เห็นเป็นไร อย่างมากก็แค่เหงาเฉยๆ",
+      "author": "เหงาแต่ฮา",
+      "category": "love",
+      "votes": 0
+    },
+    {
+      "id": 15,
+      "quote": "I’m not short, I’m concentrated awesome.",
+      "author": "Short Legend",
+      "category": "funny",
+      "votes": 2
+    },
+    {
+      "id": 16,
+      "quote": "ชีวิตคือการเดินทาง...ไปกินของอร่อย",
+      "author": "นักกิน",
+      "category": "food",
+      "votes": 0
+    },
+    {
+      "id": 17,
+      "quote": "Life is short. Smile while you still have teeth.",
+      "author": "Toothy",
+      "category": "life",
+      "votes": 0
+    },
+    {
+      "id": 18,
+      "quote": "เงินไม่ใช่ทุกอย่าง...แต่มีก็ดีกว่าไม่มี",
+      "author": "เศรษฐศาสตร์แนวฮา",
+      "category": "motivation",
+      "votes": 1
+    },
+    {
+      "id": 19,
+      "quote": "If you think nobody cares, try missing a few payments.",
+      "author": "Bill Collector",
+      "category": "funny",
+      "votes": 2
+    },
+    {
+      "id": 20,
+      "quote": "รักไม่ยุ่ง มุ่งกินหมูกระทะ",
+      "author": "สายปิ้งย่าง",
+      "category": "food",
+      "votes": 0
+    },
+    {
+      "id": 21,
+      "quote": "The road to success is always under construction.",
+      "author": "Hard Worker",
+      "category": "motivation",
+      "votes": 0
+    },
+    {
+      "id": 22,
+      "quote": "มีแฟนก็เหมือนมีเด็กเลี้ยง แต่เราเลี้ยงเอง",
+      "author": "คนมีแฟน",
+      "category": "love",
+      "votes": 1
+    },
+    {
+      "id": 23,
+      "quote": "I’m not weird, I’m a limited edition.",
+      "author": "Unique Me",
+      "category": "funny",
+      "votes": 1
+    },
+    {
+      "id": 24,
+      "quote": "ตื่นสายไม่ใช่ปัญหา ปัญหาคือ...นาฬิกาโกหก",
+      "author": "เหยื่อของเวลา",
+      "category": "life",
+      "votes": 0
+    },
+    {
+      "id": 25,
+      "quote": "You can't have everything... where would you put it?",
+      "author": "George Carlin",
+      "category": "funny",
+      "votes": 2
+    },
+    {
+      "id": 26,
+      "quote": "ไม่มีแฟนไม่เป็นไร แต่ไม่มี Wi-Fi ไม่ได้",
+      "author": "เน็ตติดใจ",
+      "category": "life",
+      "votes": 0
+    },
+    {
+      "id": 27,
+      "quote": "My bed is a magical place I suddenly remember everything I forgot to do.",
+      "author": "Sleepyhead",
+      "category": "funny",
+      "votes": 1
+    },
+    {
+      "id": 28,
+      "quote": "ชีวิตติด Netflix แต่ติดเธอมากกว่า",
+      "author": "คนติดเธอ",
+      "category": "love",
+      "votes": 0
+    },
+    {
+      "id": 29,
+      "quote": "If you can't convince them, confuse them.",
+      "author": "Trickster",
+      "category": "funny",
+      "votes": 1
+    },
+    {
+      "id": 30,
+      "quote": "ถึงไม่ใช่ช่างภาพ...แต่ถ่ายรูปเธอไว้ในใจตลอดนะ",
+      "author": "มุกเสี่ยวระดับ 10",
+      "category": "love",
+      "votes": 0
+    },
+    {
+      "quote": "ความพยายามอยู่ที่ไหน ความพยายามอยู่ที่นั่น",
+      "author": "คนไทยไว้ใจเกิน",
+      "category": "funny",
+      "votes": 0,
+      "id": 31
+    },
+    {
+      "quote": "โดนัทยังมีรู แล้วเมื่อไรยูจะมีจัย",
+      "author": "รักเทอมากกว่าใคร",
+      "category": "love",
+      "votes": 0,
+      "id": 32
+    }
+  ]
+}
