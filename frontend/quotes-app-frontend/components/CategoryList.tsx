@@ -102,8 +102,11 @@ export default function CategoryList({
 }: CategoryListProps) {
   const [categories, setCategories] = useState<string[]>([]);
 
+  // Define your API URL here
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
+
   useEffect(() => {
-    fetch("http://localhost:3001/quotes")
+    fetch(`${apiUrl}/quotes`)
       .then((res) => res.json())
       .then((data) => {
         const uniqueCategories = Array.from(

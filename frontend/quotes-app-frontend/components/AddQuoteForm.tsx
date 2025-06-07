@@ -1,6 +1,8 @@
 import { useState } from "react";
 import axios from "axios";
 
+const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000";
+
 const AddQuoteForm = () => {
   const [quote, setQuote] = useState("");
   const [author, setAuthor] = useState("");
@@ -16,7 +18,7 @@ const AddQuoteForm = () => {
     }
 
     try {
-      await axios.post("http://localhost:3001/quotes", {
+      await axios.post(`${apiUrl}/quotes`, {
         quote,
         author,
         category,

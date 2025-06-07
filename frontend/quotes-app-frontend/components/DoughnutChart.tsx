@@ -30,6 +30,8 @@ type Quote = {
   votes: number;
 };
 
+const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
+
 const DoughnutChart = () => {
   const [categoryScores, setCategoryScores] = useState<{
     [key: string]: number;
@@ -37,7 +39,7 @@ const DoughnutChart = () => {
 
   useEffect(() => {
     axios
-      .get<Quote[]>("http://localhost:3001/quotes")
+      .get<Quote[]>(`${apiUrl}/quotes`)
       .then((res) => {
         const scoreByCategory: { [key: string]: number } = {};
 

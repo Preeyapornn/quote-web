@@ -24,8 +24,11 @@ type Quote = {
 const QuoteCategoryChart: React.FC = () => {
   const [categoryCount, setCategoryCount] = useState<{ [key: string]: number }>({});
 
+  // Define your API URL here
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+
   useEffect(() => {
-    axios.get<Quote[]>('http://localhost:3001/quotes')
+    axios.get<Quote[]>(`${apiUrl}/quotes`)
       .then((res) => {
         const countByCategory: { [key: string]: number } = {};
         res.data.forEach((quote) => {

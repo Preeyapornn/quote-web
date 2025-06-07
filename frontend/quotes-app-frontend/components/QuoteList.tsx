@@ -43,6 +43,8 @@ const getCategoryTextColor = (bgColor: string): string => {
   return luminance > 0.5 ? "#333333" : "#FFFFFF";
 };
 
+const apiUrl = "http://localhost:3001"; // Set your API base URL here
+
 const QuoteList = ({ quotes }: QuoteListProps) => {
   const [fetchedQuotes, setFetchedQuotes] = useState<Quote[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
@@ -58,7 +60,7 @@ const QuoteList = ({ quotes }: QuoteListProps) => {
   useEffect(() => {
     const fetchQuotes = async () => {
       try {
-        const res = await fetch("http://localhost:3001/quotes");
+        const res = await fetch(`${apiUrl}/quotes`);
         if (!res.ok) {
           throw new Error(`HTTP error! status: ${res.status}`);
         }
@@ -89,7 +91,7 @@ const QuoteList = ({ quotes }: QuoteListProps) => {
 
       const updatedQuote = { ...quoteToUpdate, votes: quoteToUpdate.votes + 1 };
 
-      const res = await fetch(`http://localhost:3001/quotes/${id}`, {
+      const res = await fetch(`${apiUrl}/quotes/${id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",

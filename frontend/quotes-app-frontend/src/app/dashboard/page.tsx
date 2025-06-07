@@ -14,6 +14,8 @@ type Quote = {
   votes: number;
 };
 
+const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
+
 export default function DashboardPage() {
   const [quotes, setQuotes] = useState<Quote[]>([]);
   const [loading, setLoading] = useState(true);
@@ -22,7 +24,7 @@ export default function DashboardPage() {
   useEffect(() => {
     const fetchQuotes = async () => {
       try {
-        const res = await fetch("http://localhost:3001/quotes");
+        const res = await fetch(`${apiUrl}/quotes`);
         if (!res.ok) throw new Error("Failed to fetch quotes");
         const data = await res.json();
         setQuotes(data);
